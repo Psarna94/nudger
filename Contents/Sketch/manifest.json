@@ -1,0 +1,105 @@
+{
+  "author" : "Pranu Sarna",
+  "commands" : [
+    {
+      "script" : "nudger-prefrences.js",
+      "name" : "nudger-prefrences",
+      "shortcut" : "ctrl shift a",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "nudger-prefrences"
+    },
+    {
+      "script" : "nudge-right.js",
+      "name" : "nudge-right",
+      "shortcut" : "alt →",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "nudge-right"
+    },
+    {
+      "script" : "nudge-left.js",
+      "name" : "nudge-left",
+      "shortcut" : "alt ←",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "nudge-left"
+    },
+    {
+      "script" : "nudge-up.js",
+      "name" : "nudge-up",
+      "shortcut" : "alt ↑",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "nudge-up"
+    },
+    {
+      "script" : "nudge-down.js",
+      "name" : "nudge-down",
+      "shortcut" : "alt ↓",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "nudge-down"
+    },
+    {
+      "script" : "increase-height.js",
+      "name" : "height-increaser",
+      "shortcut" : "cmd w ↓",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "height-increaser"
+    },
+    {
+      "script" : "decrease-height.js",
+      "name" : "height-decreaser",
+      "shortcut" : "cmd w ↑",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "height-decreaser"
+    },
+    {
+      "script" : "increase-width.js",
+      "name" : "width-increaser",
+      "shortcut" : "cmd w →",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "width-increaser"
+    },
+    {
+      "script" : "decrease-width.js",
+      "name" : "width-decreaser",
+      "shortcut" : "cmd w ←",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "width-decreaser"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "nudger-prefrences",
+      "height-increaser",
+      "height-decreaser",
+      "width-increaser",
+      "width-decreaser",
+      "nudge-up",
+      "nudge-down",
+      "nudge-left",
+      "nudge-right"
+    ],
+    "title" : "nudger"
+  },
+  "identifier" : "com.example.sketch.b32a809d-1b86-48ee-b675-b1b441dcdc19",
+  "version" : "1.0",
+  "description" : "set custom units to move objects",
+  "authorEmail" : "pranusarna@gmail.com",
+  "name" : "nudger"
+}
